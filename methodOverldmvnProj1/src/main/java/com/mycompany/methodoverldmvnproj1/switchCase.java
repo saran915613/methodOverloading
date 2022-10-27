@@ -36,7 +36,7 @@ public class switchCase {
                     
             default:
                 System.out.println("Month Not Found");
-        }
+        }   
         int day = -1;
         switchCaseTheWeek(day);
         
