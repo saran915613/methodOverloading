@@ -38,7 +38,7 @@ public class switchCase {
                 System.out.println("Month Not Found");
         }   
         int day = -1;
-        switchCaseTheWeek(day);
+        switchCaseTheWeek(day);  
         
         }
       public static void switchCaseTheWeek(int day)
