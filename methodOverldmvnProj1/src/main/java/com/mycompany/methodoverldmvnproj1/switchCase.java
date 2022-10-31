@@ -5,7 +5,7 @@
 package com.mycompany.methodoverldmvnproj1;
 
 /**
- *
+ *    
  * @author Saran
  */
 public class switchCase {
