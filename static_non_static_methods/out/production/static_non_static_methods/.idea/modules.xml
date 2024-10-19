@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../IdeaProjects.iml" filepath="$PROJECT_DIR$/../IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../InterfaceConcepts/InterfaceConcepts.iml" filepath="$PROJECT_DIR$/../InterfaceConcepts/InterfaceConcepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../arrays/arrays.iml" filepath="$PROJECT_DIR$/../arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../baisc_1_arrays_methods/baisc_1_arrays_methods.iml" filepath="$PROJECT_DIR$/../baisc_1_arrays_methods/baisc_1_arrays_methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../constructor/constructor.iml" filepath="$PROJECT_DIR$/../constructor/constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hari_assignment/hari_assignment.iml" filepath="$PROJECT_DIR$/../hari_assignment/hari_assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../methodOverloading/methodOverloading.iml" filepath="$PROJECT_DIR$/../methodOverloading/methodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mutimmutable/mutimmutable.iml" filepath="$PROJECT_DIR$/../mutimmutable/mutimmutable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../static_local_memoryvar/static_local_memoryvar.iml" filepath="$PROJECT_DIR$/../static_local_memoryvar/static_local_memoryvar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static_non_static_methods.iml" filepath="$PROJECT_DIR$/static_non_static_methods.iml" />
+    </modules>
+  </component>
+</project>

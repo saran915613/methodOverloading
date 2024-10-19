@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="baisc_1_arrays_methods:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/baisc_1_arrays_methods_jar</output-path>
+    <root id="archive" name="baisc_1_arrays_methods.jar">
+      <element id="module-output" name="baisc_1_arrays_methods" />
+    </root>
+  </artifact>
+</component>
