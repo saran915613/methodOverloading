@@ -10,14 +10,15 @@ public class Book {
     int iPages;
     String sTitle, sAuthor, sBorrowedBy, sReservedBy;
     String DueDate;
-    public static final byte BORROWED = 0 , AVAILABLE =1, RESERVED =2; //if final used then should initialize value
+    public static final byte ReadyToBORROW = 0 , AVAILABLE =1, RESERVED =2, BORROWED = 3; //if final used then should initialize value
 
 
     public Book (String Title, String Author, int Pages){
 
-        System.out.println("Step 1--> initialized, values are :- "+  " this.stitle = "
-                +this.sTitle+ " this.sAuthor = "+this.sAuthor+" this.sPage = "+this.iPages+
-                " sBorrowedBy : "+this.sBorrowedBy
+        System.out.println("Step 2--> initialized Non-staic values first and then constructor, \nsince" +
+                " no non static block present. Initialized Values are :- \n"+ "this.stitle = "
+                +this.sTitle+ " \nthis.sAuthor = "+this.sAuthor+" \nthis.sPage = "+this.iPages+
+                " \nsBorrowedBy : "+this.sBorrowedBy
                );
 
         this. sTitle = Title;
@@ -25,13 +26,13 @@ public class Book {
         this.iPages = Pages;
        // this.iStatus = AVAILABLE;
 
-        System.out.println("Assigned values --> Title :"+this.sTitle+
-                "AUthor  : "+this.sAuthor+
-                "Pages :  "+this.iPages +" see the diff b/w local and this var");
+        System.out.println("Assigned values are :- \nTitle  : "+this.sTitle+
+                "\nAuthor : "+this.sAuthor+
+                "\nPages  : "+this.iPages +"\nthis shows the diff b/w local and this var");
 
     }
 
-    public  byte Borrow( String Borrower, String Title, String TillDue){
+    public  byte Borrow( String Borrower, String Title, String TillDue) throws Exception {
 
         if ((this.iStatus == AVAILABLE) || (this.iStatus == 0)){
 
@@ -39,11 +40,14 @@ public class Book {
             this.DueDate = TillDue;
             this.sBorrowedBy = Borrower;
             this.iStatus = BORROWED;
-            System.out.println("Book is now "+iStatus+" meaning borrowed till: "+DueDate);
+            System.out.println("Book status is "+iStatus+" meaning Borrowed till: "+DueDate);
+            throw new IllegalArgumentException("This book is reserved by Exception");
         } else if (this.iStatus == BORROWED && this.sBorrowedBy== Borrower)  {
 
             this.DueDate = TillDue;
-            System.out.println("This book is reserved by you");
+            this.iStatus = RESERVED;
+            throw new Exception("This book is reserved by you, don't try agian");
+            //System.out.println("This book is reserved by you");
 
         }
         return this.iStatus;
