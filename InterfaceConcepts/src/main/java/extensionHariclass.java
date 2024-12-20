@@ -20,13 +20,14 @@ public class extensionHariclass extends person {
 
 
 public static void setInstitute(String institute){
-    extensionHariclass.institute = institute;
+
+        extensionHariclass.institute = institute;
 }
 
 public static String getInstitute(){
       return institute;
 }
-    public void String setSno(int sno){
+    public void setSno(int sno){
         this.sno = sno;
     }
 public int getSno(){

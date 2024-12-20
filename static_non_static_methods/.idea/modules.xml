@@ -8,8 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/../arrays/arrays.iml" filepath="$PROJECT_DIR$/../arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/../baisc_1_arrays_methods/baisc_1_arrays_methods.iml" filepath="$PROJECT_DIR$/../baisc_1_arrays_methods/baisc_1_arrays_methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/../constructor/constructor.iml" filepath="$PROJECT_DIR$/../constructor/constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../final_sv_NSV_local_param/final_sv_NSV_local_param.iml" filepath="$PROJECT_DIR$/../final_sv_NSV_local_param/final_sv_NSV_local_param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../finalclasscompiletime_runtimePolymorph_may7/finalclasscompiletime_runtimePolymorph_may7.iml" filepath="$PROJECT_DIR$/../finalclasscompiletime_runtimePolymorph_may7/finalclasscompiletime_runtimePolymorph_may7.iml" />
       <module fileurl="file://$PROJECT_DIR$/../methodOverloading/methodOverloading.iml" filepath="$PROJECT_DIR$/../methodOverloading/methodOverloading.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mutimmutable/mutimmutable.iml" filepath="$PROJECT_DIR$/../mutimmutable/mutimmutable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../polymorphism_overLoading_riding_hiding/polymorphism_overLoading_riding_hiding.iml" filepath="$PROJECT_DIR$/../polymorphism_overLoading_riding_hiding/polymorphism_overLoading_riding_hiding.iml" />
       <module fileurl="file://$PROJECT_DIR$/../static_local_memoryvar/static_local_memoryvar.iml" filepath="$PROJECT_DIR$/../static_local_memoryvar/static_local_memoryvar.iml" />
       <module fileurl="file://$PROJECT_DIR$/static_non_static_methods.iml" filepath="$PROJECT_DIR$/static_non_static_methods.iml" />
     </modules>
